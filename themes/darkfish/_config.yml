@@ -1,3 +1,13 @@
-avatar: /images/avatar.png
-a
-  b: https://staunchkai.com
+sidebar:
+  author: lfyszy
+  avatar: https://cdn.luogu.com.cn/upload/usericon/748131.png
+  description: DarkFish……
+  yiyan:
+    enable: false
+  menu:
+    关于:
+      url: /about/
+      icon: https://cdn.luogu.com.cn/upload/usericon/748131.png
+    归档:
+      url: /about/
+      icon: https://cdn.luogu.com.cn/upload/usericon/748131.png
