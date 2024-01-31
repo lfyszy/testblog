@@ -12,7 +12,7 @@
     <div class="menu">
         <% for (let i in theme.sidebar.menu) { %>
             <% let menu = theme.sidebar.menu[i]; %>
-            <a href="<%- url_for(menu.url) %>" class="<%= menu.icon %>">
+            <a href="<%- url_for(menu) %>">
                 <div id="link_to_page">
                     <%= i %>
                 </div>

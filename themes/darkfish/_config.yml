@@ -5,9 +5,8 @@ sidebar:
   yiyan:
     enable: false
   menu:
-    关于:
-      url: /about/
-      icon: https://cdn.luogu.com.cn/upload/usericon/748131.png
-    归档:
-      url: /about/
-      icon: https://cdn.luogu.com.cn/upload/usericon/748131.png
+    关于: /about/
+    归档: /archive/
+    分类: /category/    
+    标签: /tag/
+    友链: /friend/
