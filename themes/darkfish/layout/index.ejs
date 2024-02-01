@@ -1,22 +1,12 @@
-<div class="sidebar">
-    <div class="author">
-        <img src="<%= theme.sidebar.avatar %>">
-        <p><%= theme.sidebar.author %></p>
-        <p><%= theme.sidebar.description %></p>
+<%- css("css/index/sidebar.css") %>
+<%- include('module/sidebar') %>
+<div class="main">
+    <div class="something">
+        <%- markdown(site.data.home.aboutsite) %>
     </div>
-    <div class="yiyan">
-        <% if(theme.sidebar.yiyan.enable){ %>
-            <p>aaa</p>
-        <%}%>
-    </div>
-    <div class="menu">
-        <% for (let i in theme.sidebar.menu) { %>
-            <% let menu = theme.sidebar.menu[i]; %>
-            <a href="<%- url_for(menu) %>">
-                <div id="link_to_page">
-                    <%= i %>
-                </div>
-            </a>
-        <% } %>
+    <div class="recent-posts">
+        <% site.posts.each(function(post) { %>
+            <%- include('module/post-card', {post: post}) %>
+        <% }); %>
     </div>
 </div>

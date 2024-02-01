@@ -1,0 +1,11 @@
+<div id="waline"></div>
+<% if(theme.comment.enable){ %>
+    <script type="module">
+        import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+    
+        init({
+        el: '#waline',
+        serverURL: '<%= theme.comment.url %>',
+        });
+    </script>
+<% } %>

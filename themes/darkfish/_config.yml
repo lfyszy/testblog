@@ -4,9 +4,12 @@ sidebar:
   description: DarkFish……
   yiyan:
     enable: false
-  menu:
+  nav:
     关于: /about/
     归档: /archive/
     分类: /category/    
     标签: /tag/
     友链: /friend/
+comment:
+  enable: true
+  url: https://comment.lfyszy.top

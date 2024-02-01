@@ -1,0 +1,9 @@
+
+<% for (let i in theme.sidebar.nav) { %>
+    <% let menu = theme.sidebar.nav[i]; %>
+    <a href="<%- url_for(menu) %>">
+        <div id="link_to_page">
+            <%= i %>
+        </div>
+    </a>
+<% } %>
