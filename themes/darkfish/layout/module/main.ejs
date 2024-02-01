@@ -1,0 +1,10 @@
+<div class="main">
+    <div class="something">
+        <%- markdown(site.data.home.aboutsite) %>
+    </div>
+    <div class="recent-posts">
+        <% site.posts.each(function(post) { %>
+            <%- include('post-card.ejs', {post: post}) %>
+        <% }); %>
+    </div>
+</div>

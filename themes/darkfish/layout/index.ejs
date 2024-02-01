@@ -1,12 +1,4 @@
-<%- css("css/index/sidebar.css") %>
-<%- include('module/sidebar') %>
-<div class="main">
-    <div class="something">
-        <%- markdown(site.data.home.aboutsite) %>
-    </div>
-    <div class="recent-posts">
-        <% site.posts.each(function(post) { %>
-            <%- include('module/post-card', {post: post}) %>
-        <% }); %>
-    </div>
-</div>
+<%- css("css/home.css") %>
+<%- css("css/all.css") %>
+<%- include('module/sidebar.ejs') %>
+<%- include('module/main.ejs') %>

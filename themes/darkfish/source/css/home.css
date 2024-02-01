@@ -1,0 +1,38 @@
+div.sidebar {
+    position : fixed;
+    top: 3%;
+    bottom: 3%;
+    width: 20%;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+div.something {
+    position : relative;
+    left: 30%;
+    width: 50%;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+div.post-card {
+    position : relative;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    left: 30%;
+    padding: 2%;
+    width: 50%;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+img.author {
+    width: calc(12vw);
+    height: calc(12vw);
+    border-radius: 50%;
+    border: solid #4CAF50;
+}
