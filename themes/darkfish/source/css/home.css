@@ -1,8 +1,8 @@
 div.sidebar {
     position : fixed;
-    top: 3%;
-    bottom: 3%;
-    width: 20%;
+    top: 1%;
+    bottom: 1%;
+    width: 10%;
     background-color: #cae8ca;
     border: 2px solid #4CAF50;
     padding: 2%;
@@ -11,7 +11,7 @@ div.sidebar {
 }
 div.something {
     position : relative;
-    left: 30%;
+    left: 20%;
     width: 50%;
     background-color: #cae8ca;
     border: 2px solid #4CAF50;
@@ -23,7 +23,7 @@ div.post-card {
     position : relative;
     margin-bottom: 1%;
     margin-top: 1%;
-    left: 30%;
+    left: 20%;
     padding: 2%;
     width: 50%;
     background-color: #cae8ca;
@@ -31,8 +31,8 @@ div.post-card {
     border-radius: 5px;
 }
 img.author {
-    width: calc(12vw);
-    height: calc(12vw);
+    width: calc(6vw);
+    height: calc(6vw);
     border-radius: 50%;
     border: solid #4CAF50;
 }
